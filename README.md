@@ -102,7 +102,7 @@ The dataset contains:
 
 ### 📷 Dashboard Preview
 
-> ![Dashboard Preview]([dashboard_screenshot.png](https://github.com/Kshitija-Agrawal/Finance-Dashboard-PowerBI/blob/main/Screenshot%202026-02-06%20181852.png))
+> ![Dashboard Preview](https://github.com/Kshitija-Agrawal/Finance-Dashboard-PowerBI/blob/main/Screenshot%202026-02-06%20181852.png)
 
 ### 🏆 Skills Demonstrated
 - Data Cleaning & Transformation
