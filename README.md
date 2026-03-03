@@ -64,146 +64,57 @@ The dataset contains:
 - Generated calculated columns
 - Built date hierarchy for time-based analysis
 
-### 3️⃣ DAX Measures Created
 
-```DAX
-Total Income = CALCULATE(SUM(Transactions[Amount]), Transactions[Type] = "Income")
+### 📊 Dashboard Features
 
-Total Expense = CALCULATE(SUM(Transactions[Amount]), Transactions[Type] = "Expense")
-
-Net Savings = [Total Income] - [Total Expense]
-
-Savings % = DIVIDE([Net Savings], [Total Income], 0)
-
-Monthly Expense = 
-CALCULATE([Total Expense], 
-          ALLEXCEPT(Transactions, Transactions[Month], Transactions[Year]))
-
----
-
-)
-📊 Dashboard Features
 💰 Financial KPIs
-
-Total Income
-
-Total Expenses
-
-Net Savings
-
-Savings Percentage
+- Total Income
+- Total Expenses
+- Net Savings
+- Savings Percentage
 
 📅 Time-Based Analysis
-
-Monthly Expense Trend
-
-Monthly Income Trend
-
-Yearly Comparison
+- Monthly Expense Trend
+- Monthly Income Trend
+- Yearly Comparison
 
 📌 Category Analysis
-
-Category-wise Expense Breakdown
-
-Highest Spending Category
-
-Pie/Donut Chart Distribution
+- Category-wise Expense Breakdown
+- Highest Spending Category
+- Pie/Donut Chart Distribution
 
 💳 Payment Mode Analysis
-
-UPI vs Cash vs Card usage
-
-Spending behavior by payment type
+- UPI vs Cash vs Card usage
+- Spending behavior by payment type
 
 🎯 Interactive Features
-
-Slicers (Date, Category, Payment Mode)
-
-Drill-through capability
-
-Tooltips for deeper insights
-
-Dynamic KPI cards
+- Slicers (Date, Category, Payment Mode)
+- Drill-through capability
+- Tooltips for deeper insights
+- Dynamic KPI cards
 
 📈 Key Insights Derived
+- Identified months with highest spending
+- Determined major expense categories
+- Evaluated savings consistency
+- Analyzed payment behavior trends
+- Detected patterns in discretionary spending
 
-Identified months with highest spending
+### 📷 Dashboard Preview
 
-Determined major expense categories
+![Dashboard Preview]([dashboard_screenshot.png](https://github.com/Kshitija-Agrawal/Finance-Dashboard-PowerBI/blob/main/Screenshot%202026-02-06%20181852.png))
 
-Evaluated savings consistency
+### 🏆 Skills Demonstrated
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- Financial KPI Design
+- Interactive Dashboard Development
+- Business Insight Generation
 
-Analyzed payment behavior trends
-
-Detected patterns in discretionary spending
-
-🧠 Business Use Cases
-
-This dashboard can help:
-
-Individuals track personal finances
-
-Families monitor monthly budgeting
-
-Improve savings planning
-
-Identify unnecessary expenses
-
-Optimize financial decision-making
-
-🚀 How to Use
-
-Download the .pbix file
-
-Open in Power BI Desktop
-
-Refresh dataset if needed
-
-Use slicers to interact with dashboard
-
-Explore drill-down features
-
-📷 Dashboard Preview
-
-(Add screenshot here)
-Example:
-
-![Dashboard Preview](dashboard_screenshot.png)
-📁 Repository Structure
-📦 Daily-Household-Transactions-PowerBI
- ┣ 📄 Daily Household Transactions.csv
- ┣ 📊 Daily Transaction.pbix
- ┣ 📷 dashboard_screenshot.png
- ┗ 📄 README.md
-🏆 Skills Demonstrated
-
-Data Cleaning & Transformation
-
-Data Modeling
-
-DAX Calculations
-
-Financial KPI Design
-
-Interactive Dashboard Development
-
-Business Insight Generation
-
-🔮 Future Improvements
-
-Add Budget vs Actual comparison
-
-Forecast future expenses
-
-Integrate with live database
-
-Add anomaly detection
-
-Deploy to Power BI Service
-
-👩‍💻 Author
+### 👩‍💻 Author
 
 Kshitija
-Data Analyst | Power BI Enthusiast | SQL | Python
+Data Analyst | Power BI Enthusiast 
 
 ⭐ If you found this project useful, feel free to star the repository!
